@@ -13,7 +13,6 @@ if [ -d "${TARGET_DIR}/res1" ] && [ -d "${TARGET_DIR}/res2" ]; then
 fi
 sync
 
-# Install boot logo and changing battery boot screen
 if [ ! -d "/mnt/boot" ]; then
   mkdir /mnt/boot
   mount "${BOOT_PARTITION}" "${BOOT_MOUNT}"
