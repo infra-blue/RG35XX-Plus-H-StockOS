@@ -8,8 +8,8 @@ BATTERY_MOUNT="/mnt/boot/bat"
 BOOT_PARTITION="/dev/mmcblk0p2"
 
 if [ -d "${TARGET_DIR}/res1" ] && [ -d "${TARGET_DIR}/res2" ]; then
-    cp -rf "${SH_DIR}/${THEME_NAME}/rs1"/* "${TARGET_DIR}"/
-    cp -rf "${SH_DIR}/${THEME_NAME}/rs2"/* "${TARGET_DIR}"/
+    cp -rf "${SH_DIR}/${THEME_NAME}"/res1 "${TARGET_DIR}"/
+    cp -rf "${SH_DIR}/${THEME_NAME}"/res2 "${TARGET_DIR}"/
 fi
 sync
 
