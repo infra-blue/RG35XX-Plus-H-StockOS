@@ -1,7 +1,7 @@
 ## RG35XX Plus & H Stock OS Theme
 Get a minimal look for your device, a new battery animation, a new bootlogo and charge logo and other UI improvements.
 
-<img src=Imgs/Minimal_Theme.png></img>
+<img src=Imgs/img.png></img>
 
 Note that is a modded theme of another user work.
 ### How to install
